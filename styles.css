@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0d12" />
+    <meta name="description" content="Download Vex, a modern Minecraft Java launcher for Windows." />
+    <title>Vex Client â€” Your Minecraft, refined.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Vex home">
+        <img src="/assets/vex.gif" alt="" />
+        <span>VEX</span>
+      </a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#launcher">Launcher</a>
+        <a href="#download">Download</a>
+      </nav>
+      <a class="header-download" href="/downloads/Vex-0.2.9-win-x64.zip" download>Get Vex</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-copy">
+          <div class="hero-wordmark">Vex<span>.</span></div>
+          <h1>Your Minecraft.<br /><span>Refined.</span></h1>
+          <p>A fast, focused launcher built around your profiles, mods, friends, and the way you actually play.</p>
+          <div class="hero-actions">
+            <a class="primary-cta" href="/downloads/Vex-0.2.9-win-x64.zip" download>
+              <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" /></svg>
+              Download for Windows
+            </a>
+            <a class="secondary-cta" href="#launcher">Explore Vex</a>
+          </div>
+        </div>
+        <div class="hero-vex">
+          <div class="orb"></div>
+          <img src="/assets/vex.gif" alt="Minecraft Vex" />
+        </div>
+      </section>
+
+      <section class="launcher-section" id="launcher">
+        <div class="section-copy">
+          <h2>Everything you need.<br />Nothing you don't.</h2>
+          <p>Vex keeps launching, profiles, accounts, versions, and Modrinth support in one clean native Windows app.</p>
+        </div>
+
+        <div class="launcher-window launcher-shot">
+          <img src="/assets/launcher-preview.png" alt="Vex launcher home screen" />
+          <div class="preview-glow"></div>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="feature-intro">
+          <h2>A sharper way to play.</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <div class="feature-icon">01</div>
+            <h3>Profiles that stay organized</h3>
+            <p>Keep versions, loaders, memory, and mods separated into setups built for every playstyle.</p>
+          </article>
+          <article>
+            <div class="feature-icon">02</div>
+            <h3>Modrinth built in</h3>
+            <p>Find and manage compatible mods without bouncing between folders, browsers, and launchers.</p>
+          </article>
+          <article>
+            <div class="feature-icon">03</div>
+            <h3>Microsoft account ready</h3>
+            <p>Secure authorization with encrypted local token storage and support for offline play.</p>
+          </article>
+          <article>
+            <div class="feature-icon">04</div>
+            <h3>Native and lightweight</h3>
+            <p>A compact C++ Windows application with a focused interface and no Electron overhead.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="download-card" id="download">
+        <div>
+          <h2>Ready when you are.</h2>
+          <p>Download Vex and launch your next Minecraft setup in minutes.</p>
+        </div>
+        <a href="/downloads/Vex-0.2.9-win-x64.zip" download>
+          <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" /></svg>
+          <span><b>Download Vex</b><small>Windows x64 Â· ZIP</small></span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark" href="#top"><img src="/assets/vex.gif" alt="" /><span>VEX</span></a>
+      <p>Vex is an independent launcher and is not affiliated with Mojang or Microsoft.</p>
+    </footer>
+  </body>
+</html>
+
